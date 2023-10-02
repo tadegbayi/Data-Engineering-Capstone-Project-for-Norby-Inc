@@ -44,7 +44,7 @@ Our main job was to answer specific questions using the data. Here is what we fo
 #### Requirement 1: Total Number of Orders Placed on Public Holidays Every Month
 We created SQL queries (special code for databases) to count how many orders were made on public holidays each month over the past year. This helps Norby Inc. understand customer behavior during holidays.
 
-
+![](orders_result.png)
 
 #### Requirement 2: Total Number of Late Shipments and Undelivered Shipments
 Using more SQL queries, we figured out how many shipments were late (took too long to arrive) and how many shipments never arrived at all. This is crucial for measuring the quality of Norby Inc.'s delivery service.
