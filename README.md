@@ -8,9 +8,7 @@ The goal was to gather and analyse data related to orders, reviews, and shipment
 
 ![](introduction.jpeg)
 
-## The Technical Details
-
-#### Data Modelling
+## Data Modelling
 ![](model.png)
 
 The attached ER table has been provided. It shows the relationship between the table.
@@ -19,11 +17,11 @@ The Order table is the fact table.The product table,dim_customer table,calender 
 This is a Star schema.
 
 
-#### Libraries
+## Libraries
 We used several tools to accomplish our tasks, 
 including pandas (a data manipulation library), io (for handling input and output streams), sqlalchemy (for database connection), time (for time-related operations), and boto3 (to interact with Amazon S3, where data was stored).
 
-#### Data Lake Connection
+## Data Lake Connection
 Our first step was connecting to a data lake hosted on Amazon S3 containing three (3) fact tables:
  - Order
  - Review
@@ -32,10 +30,10 @@ Our first step was connecting to a data lake hosted on Amazon S3 containing thre
 Data lake is like a giant storage bucket in the cloud. In this bucket, Norby Inc. had stored data in the form of CSV files. Think of CSV files as spreadsheets with rows and columns. We used a Python library called boto3 to access and retrieve these files from the S3 bucket.
 Once we had the data, we loaded it into Pandas DataFrames. Think of DataFrames as virtual spreadsheets that can be manipulated using code.
 
-#### Data Warehouse Connection
+## Data Warehouse Connection
 To centralize and organize the data for analysis, we connected to a data warehouse. Think of a data warehouse as a big, well-organized database. We used SQLAlchemy, which is like a bridge between Python code and the database. To connect, we provided credentials like a username, password, and details about where the database is located.
 
-#### Data Loading
+## Data Loading
 With the connection in place, we loaded the data from our Pandas DataFrames into the data warehouse. Think of this step as moving information from spreadsheets into a massive digital filing cabinet. We also specified exactly where in the filing cabinet (schema) the data should be stored.
 
 ## Tasks
