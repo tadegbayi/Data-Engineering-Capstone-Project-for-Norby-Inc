@@ -6,7 +6,7 @@ Norby Inc is a multinational company that deals in household items. The business
 
 The goal was to gather and analyse data related to orders, reviews, and shipments to help Norby Inc. make informed decisions.
 
-![](introduction.jpeg width)(width="250" height="250")
+![](introduction.jpeg)
 
 ## The Technical Details
 
