@@ -1,11 +1,12 @@
 # Data-Engineering-Capstone-Project-for-Norby-Inc
 
-## Project Team Members
-•	Arowolo Oluseyi Victor
-•	Boniface Chijioke
-•	Oluwatosin Abigeal Oshuntolu
-•	Taiwo Adegbayi
-•	Michael Oseyemi
+## Introduction
+
+A multinational company whose business stakeholders requires the service of Data Engineering team.
+The purpose of this project is to create a robust ELT pipeline for ABC.com and to provide the company with the required analysis listed below.
+
+![](introduction.jpeg)
+
 
 ## Overview
 We, the team members of this Data Engineering Capstone Project, conducted this project for Norby Inc. The goal was to gather and analyse data related to orders, reviews, and shipments to help Norby Inc. make informed decisions.
@@ -13,7 +14,7 @@ We, the team members of this Data Engineering Capstone Project, conducted this p
 ## The Technical Details
 
 #### Data Modelling
-
+![](model.png)
 
 The attached ER table has been provided. It shows the relationship between the table.
 The Order table is the fact table.The product table,dim_customer table,calender date table,review table and shipment table are all connected to the fact table.
@@ -52,4 +53,11 @@ We went even further by analysing which product was the best performer. We consi
 
 ## Conclusion
 In the end, we successfully completed the Data Engineering Capstone Project for Norby Inc. This project involved technical tasks like extracting data from a cloud storage bucket, connecting to a database, and writing complex queries. But it was all done to help Norby Inc. understand their business better, especially when it comes to customer behaviour, shipment quality, and product performance. The insights gained from this project can guide Norby Inc. in making smarter decisions for their future.
+
+## Project Team Members
+•	Arowolo Oluseyi Victor
+•	Boniface Chijioke
+•	Oluwatosin Abigeal Oshuntolu
+•	Taiwo Adegbayi
+•	Michael Oseyemi
 
