@@ -17,7 +17,8 @@ Norby Inc. will like to know the following:
 -	Total number of undelivered shipments.
 -	The product with the highest reviews, the day it was ordered the most, either that day was a public holiday, total review points, percentage distribution of the review points, and percentage distribution of early shipments to late shipments for that particular product.
 
-_Glossary:_
+**_Glossary:_**
+
 _1.	A public holiday is a day with a day_of_the_week number in the range of 1 - 5 and a working_day value of false._
 
 _2.	A late shipment is one with shipment_date greater than or equal to 6 days after the 
