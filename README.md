@@ -1,15 +1,12 @@
 # Data-Engineering-Capstone-Project-for-Norby-Inc
 
-## Introduction
+## Overview
 
-A multinational company whose business stakeholders requires the service of Data Engineering team.
-The purpose of this project is to create a robust ELT pipeline for ABC.com and to provide the company with the required analysis listed below.
+Norby Inc is a multinational company that deals in household items. The business stakeholders requires the service of Data Engineering team to create a robust **ELT Pipeline** for Norby Inc. and to provide the company with some required analysis. 
+
+The goal was to gather and analyse data related to orders, reviews, and shipments to help Norby Inc. make informed decisions.
 
 ![](introduction.jpeg)
-
-
-## Overview
-We, the team members of this Data Engineering Capstone Project, conducted this project for Norby Inc. The goal was to gather and analyse data related to orders, reviews, and shipments to help Norby Inc. make informed decisions.
 
 ## The Technical Details
 
@@ -46,6 +43,9 @@ Our main job was to answer specific questions using the data. Here is what we fo
 
 #### Requirement 1: Total Number of Orders Placed on Public Holidays Every Month
 We created SQL queries (special code for databases) to count how many orders were made on public holidays each month over the past year. This helps Norby Inc. understand customer behavior during holidays.
+
+
+
 #### Requirement 2: Total Number of Late Shipments and Undelivered Shipments
 Using more SQL queries, we figured out how many shipments were late (took too long to arrive) and how many shipments never arrived at all. This is crucial for measuring the quality of Norby Inc.'s delivery service.
 #### Requirement 3: Analysis of Best Performing Product
