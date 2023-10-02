@@ -1,13 +1,11 @@
 # Data-Engineering-Capstone-Project-for-Norby-Inc
 
 ## Overview
-
 Norby Inc is a multinational company that deals in house-hold items. 
 
 The purpose of this project is to integrate data from different sources to build an ELT pipeline against which some analyses are run to support strategic decision making. 
 
 ![](introduction.jpeg)
-
 
 ## Problem Statement
 Norby Inc. will like to know the following:
@@ -45,7 +43,6 @@ The Dimension data were already loaded into the Datawarehouse which is a postgre
 The dim_* tables are loaded into the if_common schema. For example, I can access the dim_customers table with if_common.dim_customers.
 
 ## Data Modelling
-
 Below is the Entity Relationship Diagram (ERD) showing the data model of our datawarehouse.
 
 ![](model.png)
@@ -76,7 +73,7 @@ Using more SQL queries, we figured out how many shipments were late (took too lo
 ![](aggregated_shipments.png)
 
 #### Requirement 3: Analysis of Best Performing Product
-We went even further by analysing which product was the best performer. We considered how many points it got in customer reviews, the day it was ordered the most, and whether that day happened to be a public holiday. We also calculated the percentages of different review scores and the percentages of shipments that were early or late for this product.
+We went even further by analysing for the best performing product. We considered how many points it got in customer reviews, the day it was ordered the most, and whether that day happened to be a public holiday or not. We also calculated the percentages of different review scores and the percentages of shipments that were early or late for this product.
 
 ![](best_product.png)
 
@@ -84,9 +81,9 @@ We went even further by analysing which product was the best performer. We consi
 In the end, we successfully completed the Data Engineering Capstone Project for Norby Inc. This project involved technical tasks like extracting data from a cloud storage bucket, connecting to a database, and writing complex queries. But it was all done to help Norby Inc. understand their business better, especially when it comes to customer behaviour, shipment quality, and product performance. The insights gained from this project can guide Norby Inc. in making smarter decisions for their future.
 
 ## Project Team Members
-•	Arowolo Oluseyi Victor
-•	Boniface Chijioke
-•	Oluwatosin Abigeal Oshuntolu
-•	Taiwo Adegbayi
-•	Michael Oseyemi
+- Arowolo Oluseyi Victor
+- Boniface Chijioke
+- Oluwatosin Abigeal Oshuntolu
+- Taiwo Adegbayi
+- Michael Oseyemi
 
