@@ -44,6 +44,7 @@ The Dimension data were already loaded into the Datawarehouse which is a postgre
 The dim_* tables are loaded into the if_common schema. For example, I can access the dim_customers table with if_common.dim_customers.
 
 ## Data Modelling
+
 ![](model.png)
 
 The attached ER table has been provided. It shows the relationship between the table.
