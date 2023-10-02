@@ -46,21 +46,21 @@ The dim_* tables are loaded into the if_common schema. For example, I can access
 
 ## Data Modelling
 
+Below is the Entity Relationship Diagram (ERD) showing the data model of our datawarehouse.
+
 ![](model.png)
 
-The attached ER table has been provided. It shows the relationship between the table.
-
-This is a Star schema.
+The attached ER table has been provided. It shows the relationship between the different tables.
 
 ## Tools & Techniques
-Jupyter notebook (Python)
-Amazon s3 Bucket
-PostgresSQL
-SQLAlchemy
-Boto3 Library
-Data Transformation using Advance level SQL queries (Subquery, CTE etc)
-Data Modelling
-Data Pipeline
+- Jupyter notebook (Python)
+- Amazon s3 Bucket
+- PostgresSQL
+- SQLAlchemy
+- Boto3 Library
+- Data Transformation using Advance level SQL queries (Subquery, CTE etc)
+- Data Modelling
+- Data Pipeline
 
 ## Results
 Our main job was to answer specific questions using the data. Here is what we found:
