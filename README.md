@@ -79,11 +79,3 @@ We went even further by analysing for the best performing product. We considered
 
 ## Conclusion
 In the end, we successfully completed the Data Engineering Capstone Project for Norby Inc. This project involved technical tasks like extracting data from a cloud storage bucket, connecting to a database, and writing complex queries. But it was all done to help Norby Inc. understand their business better, especially when it comes to customer behaviour, shipment quality, and product performance. The insights gained from this project can guide Norby Inc. in making smarter decisions for their future.
-
-## Project Team Members
-- Arowolo Oluseyi Victor
-- Boniface Chijioke
-- Oluwatosin Abigeal Oshuntolu
-- Taiwo Adegbayi
-- Michael Oseyemi
-
