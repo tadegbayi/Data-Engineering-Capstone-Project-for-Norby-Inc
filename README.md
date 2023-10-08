@@ -63,19 +63,19 @@ The attached ER table has been provided. It shows the relationship between the d
 Our main job was to answer specific questions using the data. Here is what we found:
 
 #### Requirement 1: Total Number of Orders Placed on Public Holidays Every Month
-We created SQL queries (special code for databases) to count how many orders were made on public holidays each month over the past year. This helps Norby Inc. understand customer behavior during holidays.
+I created SQL queries (special code for databases) to count how many orders were made on public holidays each month over the past year. This helps Norby Inc. understand customer behavior during holidays.
 
 ![](holiday_orders.png)
 
 #### Requirement 2: Total Number of Late Shipments and Undelivered Shipments
-Using more SQL queries, we figured out how many shipments were late (took too long to arrive) and how many shipments never arrived at all. This is crucial for measuring the quality of Norby Inc.'s delivery service.
+Using more SQL queries, I figured out how many shipments were late (took too long to arrive) and how many shipments never arrived at all. This is crucial for measuring the quality of Norby Inc.'s delivery service.
 
 ![](aggregated_shipments.png)
 
 #### Requirement 3: Analysis of Best Performing Product
-We went even further by analysing for the best performing product. We considered how many points it got in customer reviews, the day it was ordered the most, and whether that day happened to be a public holiday or not. We also calculated the percentages of different review scores and the percentages of shipments that were early or late for this product.
+I went even further by analysing for the best performing product. I considered how many points it got in customer reviews, the day it was ordered the most, and whether that day happened to be a public holiday or not. I also calculated the percentages of different review scores and the percentages of shipments that were early or late for this product.
 
 ![](best_product.png)
 
 ## Conclusion
-In the end, we successfully completed the Data Engineering Capstone Project for Norby Inc. This project involved technical tasks like extracting data from a cloud storage bucket, connecting to a database, and writing complex queries. But it was all done to help Norby Inc. understand their business better, especially when it comes to customer behaviour, shipment quality, and product performance. The insights gained from this project can guide Norby Inc. in making smarter decisions for their future.
+In the end, I successfully completed the Data Engineering Capstone Project for Norby Inc. This project involved technical tasks like extracting data from a cloud storage bucket, connecting to a database, and writing complex queries. But it was all done to help Norby Inc. understand their business better, especially when it comes to customer behaviour, shipment quality, and product performance. The insights gained from this project can guide Norby Inc. in making smarter decisions for their future.
